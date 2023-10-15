@@ -1,0 +1,23 @@
+#hamburger {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  background-color: yellowgreen;
+}
+
+.hamburger-button {
+  border: solid 1px black;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#hamburger-close-button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

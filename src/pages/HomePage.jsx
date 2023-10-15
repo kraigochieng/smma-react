@@ -15,12 +15,12 @@ export default function HomePage() {
     }
 
     return (
-    <div>
+    <>
       <motion.article 
-            initial={{opacity:0 ,y: 50}}
-                animate={{opacity:1, y:0}}
-                transition={{duration:1}}
-                class="hero">
+            // initial={{opacity:0 ,y: 50}}
+            //     animate={{opacity:1, y:0}}
+            //     transition={{duration:1}}
+                className="hero">
         <p>WE WILL ROCK YOU</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
@@ -34,7 +34,7 @@ export default function HomePage() {
       </motion.article>
 
 
-      <article class="">
+      <article className="">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
           repellendus obcaecati temporibus architecto aperiam.
@@ -183,6 +183,6 @@ export default function HomePage() {
         <p>2023 | Company Name</p>
         <p>All rihts reserves</p>
       </footer>
-    </div>
+    </>
   );
 }

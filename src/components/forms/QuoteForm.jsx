@@ -23,27 +23,27 @@ export default function QuoteForm() {
     return (
         <form>
             <div>
-                <label for="name">Name (required)</label>
+                <label htmlFor="name">Name (required)</label>
                 <input id="name" type="text" placeholder="Your name" value={quoteFormData.name} onChange={handleChange}/>
             </div>
             <div>
-                <label for="company">Company (required)</label>
+                <label htmlFor="company">Company (required)</label>
                 <input id="name" type="text" placeholder="Your company name" value={quoteFormData.company} onChange={handleChange}/>
             </div>
             <div>
-                <label for="name">Email (required)</label>
+                <label htmlFor="name">Email (required)</label>
                 <input id="name" type="email" placeholder="Your working email" value={quoteFormData.email} onChange={handleChange} />
             </div>
             <div>
-                <label for="name">Phone (required)</label>
+                <label htmlFor="name">Phone (required)</label>
                 <input id="name" type="tel" placeholder="Your actual phone number" value={quoteFormData.phone} onChange={handleChange} />
             </div>
             <div>
-                <label for="name">Project Name (required) </label>
+                <label htmlFor="name">Project Name (required) </label>
                 <input id="name" type="text" placeholder="Your project title" value={quoteFormData.project} onChange={handleChange} />
             </div>
             <div>
-                <label for="budget">Choose A Budget (KES)</label>
+                <label htmlFor="budget">Choose A Budget (KES)</label>
                 <select id="budget" value={quoteFormData.budget} onChange={handleChange}>
                     <option value="Please Advice">Please Advice</option>
                     <option value="Less than 100K">Less than 100K</option>

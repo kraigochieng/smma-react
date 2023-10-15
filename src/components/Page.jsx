@@ -1,13 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import "./Page.css";
 import Header from "./Header";
+import "./Page.css";
 
 export default function Page() {
   return (
     <>
-      <Header />
-      <main>
+      <Header /> 
+      <main className="page">
         <Outlet />
       </main>
     </>

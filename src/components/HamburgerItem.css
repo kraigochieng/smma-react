@@ -1,0 +1,7 @@
+.hamburger-item {
+    display: flex;
+}
+
+.hamburger-item-text {
+    font-size: 30px;
+}

@@ -1,20 +1,25 @@
-ul {
-    list-style: none;
-    display: flex;
+
+header {
+  height: var(--header-height);
+  padding: 0 var(--header-side-panning) 0 var(--header-side-panning);
+}
+main {
+  position: relative;
+  top: var(--header-height);
 }
 
-li {
-    padding: 10px;
+/* To vertically center the close button*/
+#hamburger-close-button-div {
+  position: relative;
+  height: var(--header-height);
+  padding-left: var(--header-side-panning);
 }
+
+.hamburger-button-icon {
+  font-size: 20px;
+}
+
+/* To remove underline for links */
 a {
-    text-decoration: none;
-}
-
-#navbar {
-    padding: 10px;
-    display: flex;
-}
-
-#icon {
-    width: 50px;
+  text-decoration: none;
 }
