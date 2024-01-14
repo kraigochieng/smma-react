@@ -1,1 +1,67 @@
+#home-hero {
+	position: relative;
+	height: 90vh;
+	overflow: hidden;
+}
 
+#home-hero::before {
+	content: attr(data-watermark);
+	display: inline-block;
+	white-space: pre;
+	position: absolute;
+	top: -400px;
+	font-size: 400px;
+	opacity: 0.3;
+	transform: rotate(-30deg);
+}
+
+.not-half-past-hero {
+	background-image: linear-gradient(
+		135deg,
+		var(--dark-purple),
+		var(--lightest-purple)
+	);
+}
+
+.half-past-hero {
+	background-image: linear-gradient(var(--darker-purple), var(--dark-purple));
+}
+
+#home-hero-read-more {
+	border: solid 1px white;
+	border-radius: 5px;
+	background: none;
+}
+
+#home-hero-play-button {
+	text-align: center;
+	border-radius: 50%;
+	background-color: black;
+}
+@media only screen and (max-width: 750px) {
+	#hamburger {
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#home-hero {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		background-color: orange;
+	}
+
+	#home-hero-text {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#home-hero-read-more {
+		align-self: flex-start;
+	}
+	#home-hero-play-button {
+		align-self: center;
+		border-radius: 50%;
+		font-size: 20px;
+	}
+}

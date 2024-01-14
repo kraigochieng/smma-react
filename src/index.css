@@ -1,13 +1,37 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-/*     outline: solid 1px red;  */
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/*     outline: solid 1px red;  */
+	font-family: Calibri;
 }
 
 :root {
-  --header-height: 100px;
-  --header-side-panning: 10px;
-  --width-for-icon-only: 830px;
+	--header-height: 10vh;
+	--header-side-panning: 10px;
+	--width-for-icon-only: 830px;
+	--darkest-purple: #2b1e25;
+	--darker-purple: #603b61;
+	--dark-purple: #ae58af;
+	--light-purple: #af6fab;
+	--lighter-purple: #bf94bc;
+	--lightest-purple: #d2b0d0;
 }
 
+.vertical-text {
+	transform: rotate(180deg);
+	writing-mode: vertical-lr;
+}
+
+.button {
+	color: white;
+	background-color: var(--darkest-purple);
+	padding: 10px;
+	border: solid 0px;
+}
+
+/* To remove underline for links */
+a {
+	text-decoration: none;
+	color: white;
+}

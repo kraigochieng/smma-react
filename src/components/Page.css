@@ -19,7 +19,3 @@ main {
   font-size: 20px;
 }
 
-/* To remove underline for links */
-a {
-  text-decoration: none;
-}

@@ -1,0 +1,18 @@
+#social-media-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1;
+  transform-origin: center right;
+  right: 2vw;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    gap: 10px;
+}
+
+@media only screen and (max-width: 1230px) {
+  #social-media-bar {
+    display: none;
+  }
+}

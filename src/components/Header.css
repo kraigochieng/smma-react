@@ -1,20 +1,20 @@
 header {
-    width: 100%;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    background-color: yellowgreen;
-    z-index: 1;
-    justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	background-color: var(--lightest-purple);
+	z-index: 1;
+	justify-content: space-between;
 }
 
 #contact-us-button {
-    padding: 5px;
-    border: solid 0px;
-    border-radius: 5px;
+	padding: 5px;
+	border: solid 0px;
+	border-radius: 5px;
 }
 
 @media only screen and (max-width: 830px) {
-  header {
-  }
+	header {
+	}
 }
